@@ -11,7 +11,7 @@ float desvio(int v[], float m,int N)
     {
         soma_q+=(v[i]-m)*(v[i]-m);
     }
-    //printf("\nA soma das diferenças ao quadrado é:%.2f\n",soma_q);
+    //printf("\nA soma das diferenÃ§as ao quadrado Ã©:%.2f\n",soma_q);
     dp=sqrt(soma_q/(N-1));
     return dp;
 }
@@ -35,9 +35,9 @@ for(i=0;i<n;i++)
         soma+=vet[i];
     }
 med=(float)soma/n;
-printf("\nA média dos componentes do vetor é:%.2f\n",med);
+printf("\nA mÃ©dia dos componentes do vetor Ã©:%.2f\n",med);
 desv=desvio(vet,med,n);
-printf("\nO desvio padrão dos componentes do vetor é:%.2f\n",desv);
+printf("\nO desvio padrÃ£o dos componentes do vetor Ã©:%.2f\n",desv);
 //system("pause");
 return 0;
 }
