@@ -68,7 +68,7 @@ for(i=0; i<TAM; i++)
 int j=0;
 
 case 0:
-  printf("Você saiu!\n");
+  printf("VocÃª saiu!\n");
   break;
 
 system("pause");
