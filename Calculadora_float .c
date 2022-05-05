@@ -41,8 +41,8 @@ int main()
         {
             system("cls");
             printf("Valores digitados: %.2f e %.2f\n\n", a,b);
-            printf("Qual operaÁ„o deseja realizar?");
-            printf("\n(1) soma\n(2) subtraÁ„o\n(3) multiplicaÁ„o\n(4) divis„o\n(5) sair\n\n>> ");
+            printf("Qual opera√ß√£o deseja realizar?");
+            printf("\n(1) soma\n(2) subtra√ß√£o\n(3) multiplica√ß√£o\n(4) divis√£o\n(5) sair\n\n>> ");
             scanf("%d",&op);
             if((op<1)||(op>5)) continue;
             switch(op)
@@ -53,17 +53,17 @@ int main()
                 break;
 
             case 2:
-                printf("\nA subtraÁ„o vale: %.2f",sub(a,b));   // usar funÁ„o abs(res) para mÛdulo e incluir math.h
+                printf("\nA subtra√ß√£o vale: %.2f",sub(a,b));   // usar fun√ß√£o abs(res) para m√≥dulo e incluir math.h
                 getch();
                 break;
 
             case 3:
-                printf("\nA multiplicaÁ„o vale: %.2f",multi(a,b));
+                printf("\nA multiplica√ß√£o vale: %.2f",multi(a,b));
                 getch();
                 break;
 
             case 4:
-                printf("\nA divis„o vale: %.2f",divi(a,b));
+                printf("\nA divis√£o vale: %.2f",divi(a,b));
                 getch();
                 break;
 
