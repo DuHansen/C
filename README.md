@@ -1,2 +1,6 @@
 # C
-Linguagem de programação C
+
+
+# EXERCÍCIOS :
+
+# 
