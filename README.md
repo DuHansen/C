@@ -1,7 +1,7 @@
 # C
  EXERCÍCIOS :
  
- #SOMADEVETORES 
+ #SOMA DE VETORES 
  
  Considerando a estrutura para representar um vetor no plano R**2:
  
